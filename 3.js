@@ -15,6 +15,7 @@ function nextPal(val) {
   // }
 
   // Here we check if val is already a palindrome number. So we increement val by one because we need to find the greater number which is the anext palindrome number.
+  // If I want to refactor my code, I would remove the below if statement and at the first of the method I start with increamenting val by one instead.
   let input2 = val;
   let nextpalindrm1 = reversedNum(input2);
   if (nextpalindrm1 == val) {
